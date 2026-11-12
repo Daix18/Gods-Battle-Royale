@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Gods_BattleRoyale.vcxproj" />
+  <Project Path="Gods_BattleRoyale.vcxproj" Id="ba919603-92cc-42cb-b52b-d11ebeb1cf7c" />
 </Solution>

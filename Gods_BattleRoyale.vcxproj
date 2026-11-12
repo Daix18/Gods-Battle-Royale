@@ -139,7 +139,15 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dios.cpp" />
     <ClCompile Include="Gods_BattleRoyale.cpp" />
+    <ClCompile Include="Herramienta.cpp" />
+    <ClCompile Include="Partida.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dios.h" />
+    <ClInclude Include="Herramienta.h" />
+    <ClInclude Include="Partida.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
