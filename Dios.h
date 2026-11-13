@@ -1,28 +1,33 @@
 #pragma once
 #include <iostream>
 #include "Herramienta.h"
+#include <vector>
 
 using namespace std;
 
-/*
-	
- */
 class Dios
 {
-	/*
-	 *public:
-		int ataque;
-		int defensa;
-		int vida;
-		Herramienta herramienta;
-		List<Herramienta> herramientas;
-		Dios(int ataque, int defensa, float vida, Herramienta herramienta) {
-			this->ataque = ataque;
-			this->defensa = defensa;
-			this->vida = vida;
-			this->herramienta = herramienta;
-	}
-	 */
-	
-};
+	public:
+		string name;
+		int attack;
+		int defense;
+		int health;
+		int attackMultiplier;
+		int defenseMultiplier;
+		int healthMultiplier;
+		Herramienta tool;
+		vector<Herramienta> tools;
 
+		Dios(string name,int attack, int defense, int health, 
+			int attackMultiplier, int defenseMultiplier, 
+			int healthMultiplier,Herramienta tool) {
+			this->name = name;
+			this->attack = attack;
+			this->defense = defense;
+			this->health = health;
+			this->attackMultiplier = attackMultiplier;
+			this->defenseMultiplier = defenseMultiplier;
+			this->healthMultiplier = healthMultiplier;
+			this->tool = tool;
+	}
+};
